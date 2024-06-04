@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="5">
+    <Name Value="tgbotcurlclient"/>
+    <Type Value="RunAndDesignTime"/>
+    <Author Value="iLya2IK"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <SearchPaths>
+        <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+    </CompilerOptions>
+    <Description Value="Abstract client for Telegramm Bot API Server written with Lazarus (Free Pascal)"/>
+    <License Value="LGPL-2.1 license "/>
+    <Version Major="1"/>
+    <Files>
+      <Item>
+        <Filename Value="tgbotmaincurlclient.pas"/>
+        <UnitName Value="tgbotmaincurlclient"/>
+      </Item>
+      <Item>
+        <Filename Value="tgbotconsts.pas"/>
+        <UnitName Value="tgbotconsts"/>
+      </Item>
+      <Item>
+        <Filename Value="tgbotcurlclientcontrols.pas"/>
+      </Item>
+    </Files>
+    <RequiredPkgs>
+      <Item>
+        <PackageName Value="pascurl_lib"/>
+      </Item>
+      <Item>
+        <PackageName Value="commonutils_ilya2ik"/>
+      </Item>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+      <UseFileFilters Value="True"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>
